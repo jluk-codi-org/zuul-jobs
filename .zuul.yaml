@@ -7,6 +7,7 @@
 
 - job:
     name: testjob
+    parent: base
     run: testjob.yaml
     nodeset:
       nodes:
