@@ -2,4 +2,6 @@
   tasks:
     - debug:
         msg: Debug message.
+    - debug:
+        var: secret1
 
