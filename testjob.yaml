@@ -6,3 +6,5 @@
         var: secret1
     - debug:
         var: hostvars
+    - debug:
+        msg: Secret: {{ hostvars["builder"]["secret1"] }}
