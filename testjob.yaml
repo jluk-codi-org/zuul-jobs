@@ -4,4 +4,5 @@
         msg: Debug message.
     - debug:
         var: secret1
-
+    - debug:
+        var: hostvars
