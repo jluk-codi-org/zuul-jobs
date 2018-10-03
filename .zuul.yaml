@@ -12,7 +12,7 @@
     nodeset:
       nodes:
         - name: builder
-          label: centos7
+          label: centos7-static
     secrets:
       - secret1
 
