@@ -19,14 +19,4 @@
 - secret:
     name: secret1
     data:
-      field1: !encrypted/pkcs1-oaep
-        - sa8thuRlLWzDGCo0F5Vs3acf7q35PKbFStKaZlX+CKiuJRVSecVlRNrMsW3EjrFOG8D9d
-          DH49/LGuBPvx9a1T5YEAyEl1NSb5Us4kpDH3IIbWfc4yp7f8phYFzcZ6galieyY8qIke8
-          qdQgQaTxlhlP/TyAVm96gJt8NpTz9xpdu9LuKcy4XmoWilIpwYZXb6WNV4ccl5zuvasVw
-          Ca7mb0Fiy0QDI/vXq+RVoKcQz/eDm64OmM5t98oToDnkp2/AGNHuS5exbM11A2j58DdMQ
-          VU0pQvSBdhjdYTZvuCnY+pewd8bDgZUhnz+2bYAYI7OdTwQHVOH7cwzoqyaEggUE5BfMM
-          TFeiooSo/ZW87jkD0Iyrd4/rJxVfPXIX6nZHkTZ6kTsdWlP/jSpCeyhfgLzAFqc5EMpZi
-          oUWYZmKgIgtl/gWJ5JQm3tkdLyYNU+bnQS2654lK8z4R0ilRvFKwxjmUbDDyk3clx+UfD
-          Ux+WdiBzTAEzgtpc58SzIHv4o4elygLteKIdidosHKoUyuvEvTjkmDgvzkLBST0Tx+uPk
-          4IG2Rj/SgAMqQoEBIO1//zQvp+WzEGEESCifun3t7nVI3wAh9pICVAoZnHoOjPlW5qF0S
-          Zwm/uxt+W9uAaauhjhrpIHaC+HrAf4LQ5ND/OYg8zUf3jc3m/rQzQx+WmeZ8zY=
+      field1: astring
