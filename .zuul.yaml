@@ -1,0 +1,22 @@
+- project:
+    name: jluk-codi-org/zuul-jobs
+    check:
+      jobs:
+        - testjob
+        - noop
+
+- job:
+    name: testjob
+    parent: base
+    run: testjob.yaml
+    nodeset:
+      nodes:
+        - name: builder
+          label: centos7-static
+    secrets:
+      - secret1
+
+- secret:
+    name: secret1
+    data:
+      field1: astring

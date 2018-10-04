@@ -1,0 +1,12 @@
+- hosts: all
+  tasks:
+    - debug:
+        msg: Debug message.
+    - debug:
+        var: secret1
+    - debug:
+        var: hostvars
+    - debug:
+        msg: 'Secret: {{ hostvars["builder"]["secret1"] }}'
+    - command: ls /home/
+    - command: ip a
