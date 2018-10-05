@@ -9,4 +9,4 @@
     - debug:
         msg: 'Secret: {{ hostvars["builder"]["secret1"] }}'
     - command: ls /home/
-    - command: ip a
+    - command: date
